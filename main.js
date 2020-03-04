@@ -18,9 +18,7 @@ class Main {
     getFechaFormatoCorto(){
         let reservacion2 = new Reservacion (20, new Date(2025, 5, 11), 5);
         console.log(reservacion2.getFechaFormatoCorto());
-    }
 
-    addHuesped(){
         let h1 = new Huesped ("Maria Rosales", "Femenino");
         let h2 = new Huesped ("Pedro Infante", "Masculino");
 
@@ -28,7 +26,8 @@ class Main {
         this.hotel.addHuesped(h2);
         this.hotel.getNumHuespedes();
     }
-}
+
+
 
 let app = new Main();
 
