@@ -22,9 +22,9 @@ class Main {
         let h1 = new Huesped ("Maria Rosales", "Femenino");
         let h2 = new Huesped ("Pedro Infante", "Masculino");
 
-        this.hotel.addHuesped(h1);
-        this.hotel.addHuesped(h2);
-        this.hotel.getNumHuespedes();
+        reservacion2.addHuesped(h1);
+        reservacion2.addHuesped(h2);
+        reservacion2.getNumHuespedes();
     }
 
 
